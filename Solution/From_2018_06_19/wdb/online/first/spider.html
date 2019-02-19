@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a id="test">Hello</a>
+<script>
+  try {
+    var data = new XMLHttpRequest()
+    data.open('get', 'http://127.0.0.1:8000/')
+    data.onreadystatechange = function () {
+      if (data.readyState = XMLHttpRequest.DONE) {
+        document.getElementById('test').innerText = data.response || 'nothing'
+      }
+    }
+    data.send()
+  } catch (e) {
+    document.getElementById('test').innerText = e
+  }
+</script>
+</body>
+</html>

